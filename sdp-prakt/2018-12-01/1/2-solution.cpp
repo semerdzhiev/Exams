@@ -16,9 +16,6 @@ void get_nth_front_help(Node& node, int level, std::vector<Node*>& res) {
 		for (size_t i = 0; i < node.children.size(); ++i) {
 			get_nth_front_help(node.children[i], level - 1, res);
 		}
-		/*for (auto it : node.children) {
-			get_nth_front_help(it, level - 1, res);
-		}*/
 	}
 }
 
