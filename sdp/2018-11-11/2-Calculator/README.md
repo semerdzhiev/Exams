@@ -35,8 +35,8 @@
 0:[]
 1:[]
 > MAX
-0: none
-1: none
+0:none
+1:none
 > PUSH 1 0
 > PUSH 3 0
 > PUSH 7 1
@@ -44,8 +44,8 @@
 0:[1,3]
 1:[7]
 > MAX
-0: 3
-1: 7
+0:3
+1:7
 > ADD
 > NEGATIVE
 > PRINT
@@ -53,12 +53,14 @@
 1:[-7]
 > CREATE
 > PUSH 10 1
-> SUBSTRACT
+> SUBTRACT
 > PRINT
 0:[-4]
 1:[17]
+2:[]
 > POP 0
 > PRINT
 0:[17]
+1:[]
 > EXIT
 ```
